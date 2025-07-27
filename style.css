@@ -6,7 +6,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    background-color: #DEDEDE;
+    background-color: #ffffff;
 }
 .header{
     margin: 0%;
@@ -16,7 +16,7 @@
     margin: 0%;
     padding: 0%;
     width: 100%;
-    height: 150px;
+    height: 90px;
     display: flex;
     justify-content: center;
 }
@@ -47,13 +47,13 @@
 @media only screen and (max-width: 900px){
     .head{
         width: 100%;
-        height: 80px;
+        height: 100px;
     }
     .mainhead{
         display: none;
     }
     .mobileheadr{
-        height: 80px;
+        height: 100px;
         width: 80px;
         margin-left:330px;
         display: block;
@@ -73,3 +73,149 @@
     }
 }
 /* HEADER IS COMPLETED  */
+.heading{
+    height: 100px;
+    width: 100%;
+    
+}
+.house{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.house h1{
+    font-size: 85px;
+}
+.herosection {
+    margin: 0;
+    padding: 0;
+    height: 550px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 10%;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 550px;
+    width: 800%;
+    object-fit: cover;
+    border-radius: 11px;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.slide.active{
+  display: block;
+  height: 100%;
+    width: 100%;
+}
+.controls{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: auto;
+    left: 40px;
+    margin-bottom: 10px;
+    margin-top: 500px;
+    gap: 10px;
+    cursor: pointer;
+}
+.next{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.prev{
+     height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.find{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.innerfind{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerfind p{
+    font-size: 28px;
+}
+.scndtext{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.scndtext h2{
+    font-size: 56px;
+    margin-bottom: 14px;
+}
+.parties, .holiday{
+    font-style: italic;
+}
+.threeimgs {
+    height: 220px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.imges {
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid black; */
+    border-radius: 2%;
+    overflow: hidden; /* Ensures image stays inside the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imges img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Makes the image fully cover the div */
+    display: block;
+}
+.housesection{
+    height: 350px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #f4c2c2;
+    margin-top:30px;
+}
